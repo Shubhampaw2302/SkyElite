@@ -251,12 +251,22 @@ section, .Tag, .adImage, .adContent {
     .card {
         width: 70vw;
     }
+
+    .partners .col {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-height: 424px), (max-width: 360px) {
     .nav_body {
         margin-top: 50px;
         margin-left: 20px;
+    }
+}
+
+@media (max-height: 460px) {
+    .contact-link {
+        flex-basis: 45%;
     }
 }
 
