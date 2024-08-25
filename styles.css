@@ -285,7 +285,7 @@ section, .Tag, .adImage, .adContent {
     border-radius: 15px;
 }
 
-.line {
+.under-line {
     width: 10vw;
     height: 4px;
     /* background: #0377fc; */
@@ -390,6 +390,7 @@ form .mb-3 {
 .logo .animate__heartBeat {
     font-size: 200%;
     font-weight: bold;
+    margin-left: -20px;
 }
 
 .links:hover {
