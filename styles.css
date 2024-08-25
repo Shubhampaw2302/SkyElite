@@ -264,7 +264,7 @@ section, .Tag, .adImage, .adContent {
     }
 }
 
-@media (max-height: 460px) {
+@media (max-width: 460px) {
     .contact-link {
         flex-basis: 45%;
     }
