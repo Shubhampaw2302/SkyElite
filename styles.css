@@ -190,6 +190,10 @@ header {
     background-image: url('./Images/G.jpg');
 }
 
+.stats {
+    margin: 50px auto;
+}
+
 .stats, .icon-container {
     display: flex;
     flex-wrap: wrap;
@@ -268,6 +272,13 @@ section, .Tag, .adImage, .adContent {
     .contact-link {
         flex-basis: 45%;
     }
+}
+
+#services .row .col a {
+    /* margin: 0; */
+    margin: 25px auto 60px auto;
+    padding: 0;
+    width: 18rem;
 }
 
 .partners {
