@@ -449,6 +449,10 @@ form .mb-3 {
     80% {
         background-image: url('./Images/M.jpg');
     }
+
+    100% {
+        background-image: url('./Images/L.jpg');
+    }
 }
 
 header::after {
