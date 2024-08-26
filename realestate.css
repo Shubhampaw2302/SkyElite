@@ -180,7 +180,16 @@ hr {
         padding: 10px; /* Optional: Add padding to prevent content from touching the edges */
         box-sizing: border-box; /* Include padding and border in the element's total width and height */
         overflow: hidden; /* Prevent content from overflowing */
-    }    
+    }   
+    
+    section h1 {
+        font-size: 45px;
+    }
+
+    #brand_image {
+        height: 25vw;
+        width: 30vw;
+    }
 }
 
 .card {

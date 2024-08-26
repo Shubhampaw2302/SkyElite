@@ -76,6 +76,7 @@ nav .menu a {
     .menu.open {
         display: flex;
         max-height: 200px; /* Adjust based on the number of menu items */
+        font-size: large;
     }
 
     .menu.closed {
