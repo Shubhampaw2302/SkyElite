@@ -84,4 +84,12 @@ nav .menu a {
         max-height: 0;
         transition: max-height 0.3s ease-in;
     }
+
+    .logo .animate__heartBeat {
+        font-size: 162%;
+    }
+
+    nav .logo {
+        width: 35%;
+    }
 }

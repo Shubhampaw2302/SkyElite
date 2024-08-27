@@ -272,6 +272,10 @@ section, .Tag, .adImage, .adContent {
     .contact-link {
         flex-basis: 45%;
     }
+
+    .logo {
+        width: 120px;
+    }
 }
 
 #services .row .col a {
