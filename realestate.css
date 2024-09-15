@@ -183,12 +183,28 @@ hr {
     }   
     
     section h1 {
-        font-size: 45px;
+        font-size: 30px;
     }
 
     #brand_image {
         height: 25vw;
         width: 30vw;
+    }
+
+    .realestate-home {
+        margin-bottom: 100px;
+    }
+    
+    section p, .about p {
+        font-size: 15px;
+    }
+    
+    section a {
+        font-size: 10px;
+    }
+    
+    .animate__heartBeat {
+        margin-left: -10px;
     }
 }
 
@@ -207,15 +223,15 @@ hr {
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 10px;
-    transition: transform 0.2s; /* Animation for interaction */
+    transition: transform 0.2s;
 }
 
 .icon:hover {
-    transform: scale(1.2); /* Scale up on hover */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .icon-container {
