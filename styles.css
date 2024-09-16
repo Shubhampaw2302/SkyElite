@@ -310,14 +310,6 @@ section, .Tag, .adImage, .adContent {
     border-radius: 15px;
 }
 
-.under-line {
-    width: 10vw;
-    height: 4px;
-    /* background: #0377fc; */
-    background: linear-gradient(45deg, lightblue, #c08eef, #c7f517);
-    margin: 10px auto;
-    border-radius: 5px;
-}
 
 .title {
     text-align: center;

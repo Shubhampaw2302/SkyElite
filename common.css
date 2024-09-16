@@ -55,6 +55,15 @@ nav .menu a {
     display: block;
 }
 
+.under-line {
+    width: 10vw;
+    height: 4px;
+    /* background: #0377fc; */
+    background: linear-gradient(45deg, lightblue, #c08eef, #c7f517);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
 
 @media (max-width: 870px) {
     .burger {
@@ -86,7 +95,7 @@ nav .menu a {
     }
 
     .logo .animate__heartBeat {
-        font-size: 162%;
+        font-size: 142%;
     }
 
     nav .logo {

@@ -34,11 +34,15 @@ section h3 {
 }
 
 section h1 {
-    margin: 30px 0 20px 0;
+    /* margin: 30px 0 20px 0; */
+    text-align: center;
     font-size: 55px;
-    font-weight: 700;
     text-shadow: 2px 1px 5px black;
     text-transform: uppercase;
+}
+
+#gallery h1 {
+    font-size: 5vmin;
 }
 
 section p {
@@ -72,13 +76,13 @@ section .btn_one {
 }
 
 section .btn_two {
-    background: #00b894;
+    background: #333;
     color: #fff;
 }
 
 .btn_two:hover {
-    background: #fff;
-    color: #00b894
+    background: #333;
+    color: #00b894;
 }
 
 .changeContent:after {
@@ -168,6 +172,50 @@ hr {
     height: 20vh;
 }
 
+.events .row {
+    margin-top: 50px;
+}
+
+.events .btn {
+    margin-top: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: #49497e;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row .col img {
+    width: 80%;
+    height: 100%;
+}
+
+#gallery {
+    width: 80%;
+    margin: 80px auto;
+}
+
+
+.row .col h4 {
+    font-size: 4vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+
 @media (max-width: 1000px) {
     .ad {
         flex-direction: column;
@@ -176,10 +224,10 @@ hr {
 
 @media (max-width: 500px) {
     .adCard {
-        height: auto; /* Automatically adjusts height based on content */
         padding: 10px; /* Optional: Add padding to prevent content from touching the edges */
         box-sizing: border-box; /* Include padding and border in the element's total width and height */
         overflow: hidden; /* Prevent content from overflowing */
+        /* height: 300px; */
     }   
     
     section h1 {
@@ -205,6 +253,18 @@ hr {
     
     .animate__heartBeat {
         margin-left: -10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row .col {
+        margin: 20px auto;
+    }
+
+    .col img {
+        max-width: 90%;
     }
 }
 
