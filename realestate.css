@@ -29,15 +29,13 @@ section h3 {
     font-size: 35px;
     font-weight: 200;
     letter-spacing: 3px;
-    /* text-shadow: 100px 100px black; */
-    text-shadow: 1px 1px 2px #000000;
 }
 
 section h1 {
     /* margin: 30px 0 20px 0; */
     text-align: center;
     font-size: 55px;
-    text-shadow: 2px 1px 5px black;
+    text-shadow: 1px 1px 1px black;
     text-transform: uppercase;
 }
 
@@ -49,7 +47,6 @@ section p {
     font-size: 25px;
     word-spacing: 2px;
     margin-bottom: 25px;
-    text-shadow: 1px 1px 1px black;
 }
 
 section a {
@@ -88,6 +85,10 @@ section .btn_two {
 .changeContent:after {
     content: '';
     animation: changeText 10s infinite linear;
+}
+
+.pricing {
+    color: rgb(21, 110, 21);
 }
 
 @keyframes changeText {
@@ -149,7 +150,6 @@ hr {
     font-size: 25px;
     word-spacing: 2px;
     margin: 25px auto;
-    text-shadow: 1px 1px 1px black;
 }
 
 #taj {
@@ -265,6 +265,13 @@ hr {
 
     .col img {
         max-width: 90%;
+    }
+}
+
+@media (max-width:500px) or (min-width:1000px) {
+    .row .col img {
+        width: 300px;
+        height: 200px;
     }
 }
 
